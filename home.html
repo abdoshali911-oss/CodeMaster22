@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحة التدريبات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .trainings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .training-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .training-card h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        .training-card p {
+            color: #555;
+        }
+
+        .training-card span {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>التدريبات المتاحة</h1>
+
+    <div class="trainings">
+        <div class="training-card">
+            <h3>تدريب HTML</h3>
+            <p>تعلم أساسيات HTML وبناء صفحات الويب.</p>
+            <span>المدة: 3 أيام</span>
+        </div>
+
+        <div class="training-card">
+            <h3>تدريب CSS</h3>
+            <p>تنسيق الصفحات وإضافة لمسات احترافية.</p>
+            <span>المدة: 4 أيام</span>
+        </div>
+
+        <div class="training-card">
+            <h3>تدريب JavaScript</h3>
+            <p>إضافة التفاعل والديناميكية للمواقع.</p>
+            <span>المدة: 5 أيام</span>
+        </div>
+    </div>
+
+</body>
+</html>
